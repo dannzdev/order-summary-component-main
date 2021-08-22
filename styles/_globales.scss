@@ -1,0 +1,43 @@
+//Fuentes
+
+$Fuente1: 'Red Hat Display', sans-serif;
+
+//Font-Sizes
+
+$Paragraph: 1.6rem;
+
+//Colores Primarios
+
+$color-primario: hsl(225, 100%, 94%);
+$color-secundario: hsl(245, 75%, 52%);
+$color-neutral-1: hsl(225, 100%, 98%);
+$color-neutral-2: hsl(224, 23%, 55%);
+$color-neutral-3: hsl(223, 47%, 23%);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $Fuente1;
+    background-color: $color-primario;
+    @media (min-width: 768px) {
+        background-image: url('../images/pattern-background-desktop.svg');
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+p {
+    font-size: $Paragraph;
+    color: $color-neutral-2;
+}
+
+

@@ -79,7 +79,7 @@ p {
 
 .plans-info_container {
   width: 80%;
-  height: 10vh;
+  height: 12vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,12 +94,12 @@ p {
   border-radius: 10px;
 }
 .plans-info_container .plans-info_block {
-  -webkit-padding-end: 25px;
-          padding-inline-end: 25px;
+  -webkit-padding-end: 30px;
+          padding-inline-end: 30px;
 }
 .plans-info_container .plans-info--title {
   color: #1f2f56;
-  font-size: 1.35rem;
+  font-size: 1.6rem;
   font-weight: 900;
 }
 .plans-info_container .plans-info--price {

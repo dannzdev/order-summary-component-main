@@ -14,29 +14,30 @@
 </head>
 <body>
 
-  <div class="order-summary_container">
+  <main  role="main" class="order-summary_container">
     <figure class="box-hero--image">
-      <div class="hero-image"></div>
+      <div role="img" class="hero-image"></div>
     </figure>
   
-    <h1>Order Summary</h1>
-  
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+    <div role="contentinfo" class="order-summary_info">
+      <h1>Order Summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
       device anywhere you like!</p>
+    </div>
   
-    <div class="plans-info_container">
+    <div role="textbox" class="plans-info_container">
       <figure>
         <img src="./images/icon-music.svg" alt="">
       </figure>
-      <div class="plans-info_block">
-        <h3 class="plans-info--title">Annual Plan</h3>
-        <h3 class="plans-info--price">$59.99/year</h3>
+      <div role="textbox" class="plans-info_block">
+        <h2 class="plans-info--title">Annual Plan</h2>
+        <p class="plans-info--price">$59.99/year</p>
       </div>
-      <a class="plans-info_button" href="/">Change</a>
+      <a role="button" class="plans-info_button" href="/">Change</a>
     </div>
-    <a class="button-payment" href="/">Proceed to Payment</a>
-    <a class="button-cancel" href="/">Cancel Order</a>
-  </div>
 
+    <a role="button" class="button-payment" href="/">Proceed to Payment</a>
+    <a role="button" class="button-cancel" href="/">Cancel Order</a>
+  </main>
 </body>
 </html>

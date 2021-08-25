@@ -42,7 +42,7 @@ p {
 
 .plans-info_container {
     width: 80%;
-    height: 12vh;
+    height: 11vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -51,7 +51,7 @@ p {
     border-radius: 10px;
 
     .plans-info_block {
-        padding-inline-end: 30px;
+        padding: 10px 20px 0 0;
     }
     .plans-info--title {
         color: $color-neutral-3;
@@ -66,7 +66,7 @@ p {
     
     .plans-info_button {
         color: $color-secundario;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-weight: 700;
         text-decoration: none;
     }

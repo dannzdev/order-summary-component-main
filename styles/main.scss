@@ -4,7 +4,7 @@
     min-width: 320px;
     max-width: 400px;
     height: auto;
-    margin: 50px auto;
+    margin: 0 auto;
     border-radius: 6%;
     overflow: hidden;
     text-align: center;
@@ -30,28 +30,28 @@
 
 h1 {
     color: $color-neutral-3;
+    font-size: 2rem;
     font-weight: 900;
     margin: 20px 0;
 }
 
 p {
-    margin-block-end: 10px;
     padding: 0 30px;
     line-height: 25px;
 }
 
 .plans-info_container {
     width: 80%;
-    height: 9vh;
+    height: 10vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px 0;
+    margin: 30px 0 45px 0;
     background-color: $color-neutral-1;
     border-radius: 10px;
 
     .plans-info_block {
-        padding: 20px 20px 0 0;
+        padding: 0 20px 0 0;
     }
     .plans-info--title {
         color: $color-neutral-3;
@@ -80,7 +80,7 @@ p {
 .button-payment {
     width: 80%;
     padding: 15px;
-    margin-block-end: 5px;
+    margin: 0 0 5px 0;
     font-size: 1.4rem;
     font-weight: 700;
     border-radius: 10px;
@@ -96,7 +96,7 @@ p {
 .button-cancel {
     width: 80%;
     padding: 15px;
-    margin-block-end: 5px;
+    margin-block-end: 10px;
     font-size: 1.4rem;
     font-weight: 700;
     border-radius: 10px;
